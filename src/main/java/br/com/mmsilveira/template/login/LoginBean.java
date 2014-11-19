@@ -1,4 +1,4 @@
-package br.com.neodealer.siac.login;
+package br.com.mmsilveira.template.login;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
