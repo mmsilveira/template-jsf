@@ -2,7 +2,22 @@
       xmlns:ui="http://java.sun.com/jsf/facelets">
 
     <ui:composition>
-        <div>HEADER</div>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">SIAC - Chamados</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><strong>Usuário: </strong>Moisés M Silveira</a></li>
+                        <li><a href="#">Sair</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <input type="text" class="form-control" placeholder="Buscar..." />
+                    </form>
+                </div>
+            </div>
+        </div>
     </ui:composition>
 
 </html>

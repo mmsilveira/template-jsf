@@ -18,14 +18,14 @@
         <h:outputScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"/>
         <h:outputScript name="bootstrap/js/bootstrap.js" />
     </f:facet>
-    <f:facet name="last"></f:facet>
+    <f:facet name="last">
+        <h:outputStylesheet name="css/font-awesome.css"/>
+    </f:facet>
 </h:head>
 
 <h:body>
-    <ui:insert name="header">
-        <ui:include src="/templates/default/header.xhtml" />
-    </ui:insert>
-    <ui:insert name="content"/>
+    <ui:include src="header.xhtml" />
+    <ui:include src="content.xhtml"/>
 </h:body>
 
 </html>
