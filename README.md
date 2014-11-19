@@ -1,29 +1,11 @@
-# README #
+# Template inicial para um projeto JSF #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Este projeto é um template básico para iniciar um projeto com JSF 2, também possuí mais algumas tecnologias necessárias para iniciar o projeto sem se preocupar com configurações.
 
-### What is this repository for? ###
+### O que mais tem neste template? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* JSF 2
+* Componentes do Primefaces com thema bootstrap
+* Spring MVC e Spring JDBC
+* Twitter Bootstrap 3
+* Font Awesome
